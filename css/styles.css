@@ -2,7 +2,11 @@
 body {
 	
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	line-height: 32px;
 }
+
+
+
 
 
 
@@ -20,6 +24,7 @@ img {
 .bio h2, 
 .bio h3 {
 	font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+	text-align: left;
 
 }
 
@@ -28,7 +33,17 @@ img {
 	letter-spacing: 2px;
 }
 
+.bio section {
+	float: left;
+	width: 50%;
+}
 
+.bio article {
+
+	margin: 0 auto;
+
+	width: 1000px;
+}
 
 
 /*Style tile */
