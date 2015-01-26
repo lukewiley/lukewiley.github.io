@@ -1,3 +1,34 @@
+/*global*/
+body {
+	
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+
+
+/*Home Page*/
+
+
 img {
 	width : 300px;
 }
+
+
+
+/* BIO Page*/
+
+.bio h2, 
+.bio h3 {
+	font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+
+}
+
+.bio h1 {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+
+
+
+/*Style tile */
