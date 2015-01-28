@@ -1,13 +1,37 @@
 /*global*/
+
 body {
 	
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	line-height: 32px;
+	font-family: 'Raleway', sans-serif;
+
 }
 
 
+/* Navigation */
 
 
+nav a:link {
+  color: #45FFD4;
+  text-decoration: none;
+}
+
+nav a:focus {
+  border: 2px solid red;
+}
+
+nav a:visited {
+  color: #62487F;
+}
+
+nav a:hover {
+  background: #1917CC;
+}
+
+nav a:active {
+  background: #CC2717;
+}
 
 
 /*Home Page*/
@@ -46,4 +70,4 @@ img {
 }
 
 
-/*Style tile */
+/*Style tile 
