@@ -64,9 +64,20 @@ img {
 
 .bio article {
 
+	background: red;
+
 	margin: 0 auto;
 
 	width: 1000px;
+}
+
+.col1 {
+	width: 300px;
+
+}
+
+.col2 {
+	width: 700px;
 }
 
 
