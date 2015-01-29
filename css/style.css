@@ -1,0 +1,193 @@
+a  {
+
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+footer 
+{	font-size: 0.75em;
+	text-align: center;
+	clear: both;
+	padding-top: 50px;
+	padding-bottom: 50px
+	color: #ccc;
+
+}
+
+#wrapper {
+	/*background-color: rgba(255,255,255, 0.9);
+	border: 2px;
+	border-radius: 25px; */
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0  5%;
+}
+
+header {
+	float: left;
+	margin: 0 0 30px 0;
+	padding: 5px 0 0 0;
+	width: 100%;
+}
+
+
+
+header {
+	border-color: #266C7F;
+	background-color: #45737F;
+
+}
+
+header h1, header h2 {
+	font-family: 'Raleway', sans-serif;
+	color: #B2FFCB;
+	
+}
+
+header h1 {
+	
+	text-transform: uppercase;
+	letter-spacing: 7px;
+}
+
+#logo {
+	text-align: center;
+	margin: 0;
+}
+
+/* portfolio style */
+
+#gallery {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#gallery li {	
+	float: left;
+	padding-top: 10px;
+	width: 45%;
+	margin: 2.5%;
+	background-color: #f5f5f5;
+	color: #bdc3c7;
+}
+
+#gallery li:nth-child(3n) {
+	clear: left;
+
+}
+
+#gallery li:nth-child(5n) {
+	clear: left;
+
+}
+
+#gallery li a p {
+	margin: 0;
+	padding: 5%;
+	font-size: 0.75em;
+	color: #bdc3c7;
+}
+
+/* Navigation */
+
+
+nav {
+	background: #266C7F;
+
+}
+
+nav a, nav a:visited {
+    color:  #B2FFCB;
+}
+
+nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+	
+
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	font-weight: 800px;
+	padding: 15px 10px;
+}
+
+nav a.selected, nav a:hover {
+
+	color: #fff;
+}
+
+.social-icon {
+	width: 20px;
+	height: 20px;
+	margin: 0 5px;
+}
+
+/* About Page Style */
+
+
+#aboutinfo h1 {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+}
+
+#aboutinfo img {
+	background-repeat: no-repeat;
+	background-position: 50%;
+	border-radius: 100%;
+	width: 200px;
+	height: 200px;
+
+}
+
+img.centered {
+	display: block;
+	margin: 0 auto;
+}
+
+.bio article {
+	margin: 0 auto;
+
+}
+
+.bio section {
+	float: left;
+	width: 50%;
+	min-width: 300px;
+	
+}
+
+.bio {
+
+	font-family: Arial, sans-serif;
+}
+
+.bio {
+	background-color:  #F7F7E9;
+
+}
+
+.bio ul {
+	list-style-type: none;
+	line-height: 1.5;
+}
+
+.photo {
+	background-color: #F7F7E9;
+}
+
