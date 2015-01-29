@@ -28,7 +28,7 @@ footer
 
 header {
 	float: left;
-	margin: 0 0 0 0;
+	margin: 0 0 50px 0;
 	padding: 5px 0 0 0;
 	width: 100%;
 	height: 100px;
@@ -155,7 +155,7 @@ nav a.selected, nav a:hover {
 	border-radius: 100%;
 	width: 200px;
 	height: 200px;
-	margin-top: 50px; 
+
 
 }
 
