@@ -97,8 +97,9 @@ header h1 {
 
 
 nav {
-	background: #45737F;
-	
+	background-image: linear-gradient(#266C7F, #45737F) ;
+
+
 
 }
 
