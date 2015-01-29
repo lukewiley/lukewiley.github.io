@@ -250,6 +250,14 @@ img.centered {
     	font-size: 14;
     }
 
+    header {
+    	min-width: 400px
+    }
+
+    nav {
+    	min-width: 400px
+    }
+
 
 }
 
