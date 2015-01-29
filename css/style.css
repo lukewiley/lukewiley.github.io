@@ -189,7 +189,7 @@ img.centered {
 	background-image: url("../img/night.jpg");
 	background-size: cover;
 	background-position: center;
-	background: fixed;
+	background-repeat: no-repeat;
 
 
 }
