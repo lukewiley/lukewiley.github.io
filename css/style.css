@@ -97,7 +97,7 @@ header h1 {
 
 
 nav {
-	background-image: linear-gradient(#266C7F, #45737F) ;
+	background: #45737F;
 
 
 
@@ -188,7 +188,7 @@ img.centered {
 }
 
 .bio {
-	background-color:  #F7F7E9;
+	background: linear-gradient(transparent, #fff 25%);
 	background-image: url("../img/night.jpg");
 	background-size: cover;
 	background-position: center;
