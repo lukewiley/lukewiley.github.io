@@ -171,6 +171,7 @@ img.centered {
 	float: left;
 	width: 50%;
 	min-width: 300px;
+	overflow: hidden;
 	
 }
 
