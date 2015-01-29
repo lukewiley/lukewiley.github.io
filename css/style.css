@@ -252,3 +252,41 @@ img.centered {
 
 
 }
+
+@media (max-width: 660px) {
+
+	nav {
+		background: none;
+		float: right;
+		margin-right: 5%;
+		text-align: right;
+		width: 45%;
+	}
+
+	#logo {
+		float: left;
+		margin-left: 5%;
+		text-align: left;
+		width: 45%;
+	}
+
+	header h1 {
+		font-size: 2.5em;
+	}
+
+	header h2 {
+		font-size: 0.825em;
+		margin-bottom: 20px;
+	}
+
+
+
+
+
+	header {
+		border-bottom: 5px solid #599a68;
+		margin-bottom: 60px;
+
+
+	}
+}
