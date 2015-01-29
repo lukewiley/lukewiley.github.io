@@ -188,7 +188,7 @@ img.centered {
 }
 
 .bio {
-	background: linear-gradient(transparent 35%, #fff 50%),
+	background: linear-gradient(transparent 35%, #fff 15%),
 				url("../img/night.jpg");
 	
 	background-size: cover;
