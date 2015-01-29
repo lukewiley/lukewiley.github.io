@@ -164,6 +164,7 @@ img.centered {
 
 .bio article {
 	margin: 0 auto;
+	overflow: hidden;
 
 }
 
