@@ -235,8 +235,15 @@ img.centered {
 	#aboutinfo ul {
 	list-style-type: none;
 	line-height: 1.3;
-	font-size: 10px;
+	font-size: 12px;
 }
+    #aboutinfo h2 {
+    	font-size: 18px;
+    }
+
+    #aboutinfo h3 {
+    	font-size: 14;
+    }
 
 
 }
