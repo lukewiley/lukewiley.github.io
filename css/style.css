@@ -45,6 +45,8 @@ header {
 header h1, header h2 {
 	font-family: 'Raleway', sans-serif;
 	color: #B2FFCB;
+	margin: 0;
+	padding: 0;
 	
 }
 
