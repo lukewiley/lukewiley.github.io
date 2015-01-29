@@ -253,7 +253,7 @@ img.centered {
 
 }
 
-@media (max-width: 660px) {
+@media (min-width: 660px) {
 
 	nav {
 		background: none;
