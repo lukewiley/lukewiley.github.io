@@ -164,7 +164,7 @@ img.centered {
 
 .bio article {
 	margin: 0 auto;
-	overflow: hidden;
+
 
 }
 
@@ -172,7 +172,7 @@ img.centered {
 	float: left;
 	width: 50%;
 	min-width: 300px;
-	overflow: hidden;
+	
 	
 }
 
@@ -191,6 +191,7 @@ img.centered {
 }
 
 .transparent-back {
+	overflow: hidden;
 	background-color: rgba(255,255,255, 0.9);
 	border: 1px;
 	border-radius: 25px;
