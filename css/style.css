@@ -237,6 +237,11 @@ img.centered {
 	line-height: 1.3;
 	font-size: 12px;
 }
+    
+	#aboutinfo h1 {
+    	font-size: 24px;
+    }
+
     #aboutinfo h2 {
     	font-size: 18px;
     }
