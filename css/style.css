@@ -152,7 +152,7 @@ nav a.selected, nav a:hover {
 #aboutinfo img {
 	background-repeat: no-repeat;
 	background-position: 50%;
-	box-shadow: inset 0 0 50px 10px rgba(0,0,0, .8);
+	box-shadow: 0 0 50px 10px rgba(0,0,0, .8);
 	width: 200px;
 	height: 200px;
 	border-radius: 100%;
