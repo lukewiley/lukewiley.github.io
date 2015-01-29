@@ -145,8 +145,8 @@ nav a.selected, nav a:hover {
 #aboutinfo h1 {
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
-	color: #fff;
-	text-shadow: 2px 0px 0 #222;
+	color: #222;
+	text-shadow: 2px 0px 0 #fff;
 }
 
 #aboutinfo img {
