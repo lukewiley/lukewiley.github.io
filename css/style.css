@@ -219,3 +219,17 @@ img.centered {
 	background-color: #F7F7E9;
 }
 
+/* Media Type*/
+
+@media (max-width: 480px) {
+	#aboutinfo img {
+	background-repeat: no-repeat;
+	background-position: 50%;
+	box-shadow: 0 0 20px 10px rgba(0,0,0, .8);
+	width: 150px;
+	height: 150px;
+	border-radius: 100%;
+}
+
+
+}
