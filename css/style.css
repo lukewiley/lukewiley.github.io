@@ -12,7 +12,7 @@ footer
 	text-align: center;
 	clear: both;
 	padding-top: 50px;
-	padding-bottom: 50px
+	padding-bottom: 50px;
 	color: #ccc;
 
 }
@@ -182,7 +182,7 @@ img.centered {
 
 }
 
-#aboutinfo {
+#aboutinfo ul {
 	list-style-type: none;
 	line-height: 1.5;
 }
