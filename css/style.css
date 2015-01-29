@@ -183,6 +183,8 @@ img.centered {
 
 .bio {
 	background-color:  #F7F7E9;
+	background-image: url("../img/flag.jpg");
+	background-size: 100%;
 
 
 }
