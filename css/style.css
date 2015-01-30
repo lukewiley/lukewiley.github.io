@@ -280,6 +280,7 @@ img.centered {
 
 	header h1 {
 		font-size: 1.5em;
+		margin-top: 30px
 	}
 
 	header h2 {
@@ -292,7 +293,7 @@ img.centered {
 
 
 	header {
-		border-bottom: 5px solid #599a68;
+		border-bottom: 5px solid #B2FFCB;
 		margin-bottom: 60px;
 
 
