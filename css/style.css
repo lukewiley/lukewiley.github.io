@@ -164,6 +164,13 @@ nav a.selected, nav a:hover {
 
 }
 
+#aboutinfo h2 {
+	color: #E53608;
+	font-family: 'Raleway', sans-serif;
+
+}
+
+
 img.centered {
 	display: block;
 	margin: 0 auto;
