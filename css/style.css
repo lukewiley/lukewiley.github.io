@@ -312,10 +312,22 @@ img.centered {
 /*Layout for Style Tile
 Feel free to change */
 
+.style-main h1 {
+	font-family: 'Raleway', sans-serif;
+	color: #B2FFCB;
+	font-size: 1.5em;
 
+}
+
+.style-tile h2 {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	color: #222;
+	text-shadow: 2px 0px 0 #fff;
+}
 
 .style-main section {
-	margin: 50px 0;
+	margin: 0 0;
 }
 
 .color-1,
@@ -335,15 +347,15 @@ Feel free to change */
 }
 
 .color-1 {
-	background: red;
+	background: #45737F;
 }
 
 .color-2 {
-	background: white;
+	background:  #266C7F;
 }
 
 .color-3 {
-	background: blue;
+	background: #B2FFCB;
 
 }
 
