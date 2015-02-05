@@ -368,6 +368,12 @@ Feel free to change */
 
 }
 
+.pattern-1 {
+	height: 250px;
+	width: 250px;
+	background-image: linear-gradient(#45737F, #266C7F)
+}
+
 
 
 /* Set Your Own Typography */
