@@ -329,7 +329,7 @@ Feel free to change */
 .imagery-3 {
 	border: 1px solid #000;
 	float: left;
-	margin: 10px 10px;
+	margin: 0px 10px;
 	height: 50px;
 	width: 50px;
 }
@@ -357,7 +357,10 @@ h2, h3, p {
 	margin: 0;
 }
 */
-
+/*
  Clearfix - Oo Not Remove 
-.clearfix {clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}
+.clearfix {clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0
 
+}
+
+*/
