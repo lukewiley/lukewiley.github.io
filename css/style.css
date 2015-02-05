@@ -352,11 +352,12 @@ Feel free to change */
 /* Set Your Own Typography */
 
 
-/* Set Your Own Margin & Padding 
+/*Set Your Own Margin & Padding 
 h2, h3, p {
 	margin: 0;
 }
+*/
 
-/* Clearfix - Oo Not Remove 
+ Clearfix - Oo Not Remove 
 .clearfix {clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}
 
