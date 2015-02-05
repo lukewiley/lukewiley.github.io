@@ -316,6 +316,8 @@ Feel free to change */
 	font-family: 'Raleway', sans-serif;
 	color: #B2FFCB;
 	font-size: 1.5em;
+	text-transform: uppercase;
+	letter-spacing: 8px;
 
 }
 
