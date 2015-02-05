@@ -309,9 +309,12 @@ img.centered {
 
 
 
-/* Layout for Style Tile
-Feel free to change 
-section {
+/*Layout for Style Tile
+Feel free to change */
+
+
+
+.style-main section {
 	margin: 20px 0;
 }
 
@@ -356,4 +359,4 @@ h2, h3, p {
 
 /* Clearfix - Oo Not Remove 
 .clearfix {clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}
-*/
+
