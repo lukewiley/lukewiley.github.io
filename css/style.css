@@ -315,7 +315,7 @@ Feel free to change */
 
 
 .style-main section {
-	margin: 20px 0;
+	margin: 50px 0;
 }
 
 .color-1,
@@ -357,10 +357,16 @@ h2, h3, p {
 	margin: 0;
 }
 */
-/*
- Clearfix - Oo Not Remove 
-.clearfix {clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0
+
+ /*Clearfix - Oo Not Remove */
+
+.clearfix {
+	clear:both;
+	display:block;
+	overflow:hidden;
+	visibility:hidden;
+	width:0;
+	height:0
 
 }
 
-*/
