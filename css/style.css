@@ -319,15 +319,15 @@ Feel free to change */
 
 }
 
-.style-tile h2 {
+.style-main h2 {
 	font-family: 'Raleway', sans-serif;
-	text-align: center;
+	text-align: left;
 	color: #222;
 	text-shadow: 2px 0px 0 #fff;
 }
 
 .style-main section {
-	margin: 0 0;
+	margin: 0;
 }
 
 .color-1,
@@ -341,7 +341,7 @@ Feel free to change */
 .imagery-3 {
 	border: 1px solid #000;
 	float: left;
-	margin: 0px 10px;
+	margin: 10px 10px;
 	height: 50px;
 	width: 50px;
 }
