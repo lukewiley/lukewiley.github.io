@@ -21,7 +21,7 @@ footer {
 	/* background-color: rgba(255,255,255, 0.9); */	 
 	max-width: 960px;
 	margin: 0 auto;
-	padding: 0 5%;
+	padding: o 5%;
 }
 
 header {
@@ -300,11 +300,23 @@ img.centered {
 
 
 	header {
+		position: fixed;
+		top: 0;
+		z-index: 100;
+
 		border-bottom: 5px solid #B2FFCB;
 		margin-bottom: 60px;
 
 
 	}
+
+	#gallery,
+	#aboutinfo {
+		padding-top: 150px;
+	}
+
+
+
 }
 
 
