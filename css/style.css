@@ -75,12 +75,24 @@ header h1 {
 	margin: 2.5%;
 	background-color: #f5f5f5;
 	color: #bdc3c7;
-	transition: 1s;
+	transform: perspective(500);
+	-ms-transform: perspective(500);
+	-moz-transform: perspective(500);
+	-webkit-transform: perspective(500);
+	
+    transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
 }
 
 #gallery li:hover {
-	width: 50%
+	transition: perspective(500) translateZ(3em);
+	-ms-transform: perspective(500) translateZ(3em);
+	-moz-transform: perspective(500) translateZ(3em);
+	-webkit-transform: perspective(500) translateZ(3em);
 }
+
 
 #gallery li:nth-child(3n) {
 	clear: left;
@@ -419,3 +431,5 @@ h2, h3, p {
 .typeform-widget {
 	margin-top: 150px;
 }
+
+
