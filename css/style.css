@@ -79,8 +79,7 @@ header h1 {
 	-ms-transform: perspective(500);
 	-moz-transform: perspective(500);
 	-webkit-transform: perspective(500);
-	
-    transition: .5s;
+	transition: .5s;
     -ms-transition: .5s;
     -moz-transition: .5s;
     -webkit-transition: .5s;
@@ -92,6 +91,13 @@ header h1 {
 	-moz-transform: perspective(500) translateZ(3em);
 	-webkit-transform: perspective(500) translateZ(3em);
 }
+
+
+/*  Treehouse gallery and 3d animation 
+http://teamtreehouse.com/library/how-to-make-a-website
+http://teamtreehouse.com/library/css-beyond-the-basics
+
+ */
 
 
 #gallery li:nth-child(3n) {
