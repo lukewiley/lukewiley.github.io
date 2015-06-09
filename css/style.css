@@ -36,8 +36,8 @@ header {
 
 
 header {
-	border-color: #266C7F;
-	background-image: linear-gradient(#45737F, #266C7F) ;
+	border-color: red;
+	background-image: linear-gradient(#FF0000, #E82C0C) ;
 
 }
 
