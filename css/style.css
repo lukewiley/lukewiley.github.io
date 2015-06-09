@@ -43,7 +43,7 @@ header {
 
 header h1, header h2 {
 	font-family: 'Raleway', sans-serif;
-	color: #B2FFCB;
+	color: #000000;
 	margin: 0;
 	padding: 2px;
 	
@@ -121,7 +121,7 @@ http://teamtreehouse.com/library/css-beyond-the-basics
 
 
 nav {
-	background: #45737F;
+	background: #E82C0C;
 
 
 
