@@ -1,6 +1,37 @@
 
+
+
+
+button {
+	color: #fff;
+	background-color: red;
+	border: none;
+	cursor:pointer;
+	display:inline-block;
+	margin-bottom: 5px;
+	
+
+	
+	
+}
+
+#select {
+	position: static;
+	z-index: 99;
+	padding-top: 85px;
+	
+	width: 100%;
+}
+
+
+
+
+
+
+
 svg {
-	height: 75%;
+	height: 80px;
+	float: left;
 }
 
 a  {
@@ -9,6 +40,7 @@ a  {
 }
 
 img {
+
 	max-width: 100%;
 }
 
@@ -22,11 +54,16 @@ footer {
 
 }
 
+
+
+ 
+
 #wrapper {
 	/* background-color: rgba(255,255,255, 0.9); */	 
 	max-width: 960px;
 	margin: 0 auto;
-	padding: o 5%;
+
+	padding: 0 5%;
 }
 
 header {
@@ -73,7 +110,10 @@ header h1 {
 	list-style: none;
 }
 
-#gallery li {	
+#gallery li {
+	
+	
+	
 	float: left;
 	padding-top: 10px;
 	width: 40%;
@@ -88,7 +128,9 @@ header h1 {
     -ms-transition: .5s;
     -moz-transition: .5s;
     -webkit-transition: .5s;
+	
 }
+
 
 #gallery li:hover {
 	transition: perspective(500) translateZ(3em);
@@ -98,6 +140,7 @@ header h1 {
 }
 
 
+
 /*  Treehouse gallery and 3d animation 
 http://teamtreehouse.com/library/how-to-make-a-website
 http://teamtreehouse.com/library/css-beyond-the-basics
@@ -105,15 +148,22 @@ http://teamtreehouse.com/library/css-beyond-the-basics
  */
 
 
-#gallery li:nth-child(3n) {
-	clear: left;
-
+#gallery li:nth-child(2) {
+	clear: right;
 }
 
-#gallery li:nth-child(5n) {
+#gallery li:nth-child(9) {
 	clear: left;
-
 }
+
+#gallery li:nth-child(11) {
+	clear: left;
+}
+
+
+
+
+
 
 #gallery li a p {
 	margin: 0;
@@ -133,7 +183,7 @@ nav {
 }
 
 nav a, nav a:visited {
-    color:  #B2FFCB;
+    color:  #ffffff;
 }
 
 nav {
@@ -235,6 +285,12 @@ img.centered {
 
 }
 
+
+.bio-info h3 {
+	margin: 5px;
+	padding: 5px;
+}
+
 .transparent-back {
 	overflow: hidden;
 	background-color: rgba(255,255,255, 0.75);
@@ -259,6 +315,11 @@ img.centered {
 /* Media Type*/
 
 @media (max-width: 480px) {
+
+	svg { 
+		display: none;
+	}
+
 	#aboutinfo img {
 	background-repeat: no-repeat;
 	background-position: 50%;
@@ -296,29 +357,42 @@ img.centered {
 
 }
 
+
+
+
+
 @media (min-width: 660px) {
+
+
+
+
+
+
 
 	nav {
 		background: none;
 		float: right;
 		margin-right: 5%;
 		text-align: right;
-		width: 45%;
+		width: 35%;
 	}
 
 	#logo {
+		
 		float: left;
 		margin-left: 5%;
 		text-align: left;
-		width: 45%;
+		width: 35%;
 	}
 
 	header h1 {
+		
 		font-size: 1.5em;
 		margin-top: 15px
 	}
 
 	header h2 {
+
 		font-size: 0.825em;
 		margin-bottom: 20px;
 	}
@@ -331,14 +405,16 @@ img.centered {
 		position: fixed;
 		top: 0;
 		z-index: 100;
+		display: block;
 
-		border-bottom: 5px solid #B2FFCB;
-		margin-bottom: 60px;
+		border-bottom: 5px solid #ffffff;
+		
+		margin-bottom: 0px;
 
 
 	}
 
-	#gallery,
+	
 	#aboutinfo {
 		padding-top: 150px;
 	}
@@ -346,6 +422,10 @@ img.centered {
 
 
 }
+
+
+
+
 
 
 
@@ -442,5 +522,9 @@ h2, h3, p {
 .typeform-widget {
 	margin-top: 150px;
 }
+
+
+
+
 
 

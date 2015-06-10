@@ -1,0 +1,42 @@
+#wrapper img {
+  background: red;
+  height: 50px;
+  overflow: hidden;
+  display: block;
+  position: absolute;
+  
+}
+
+ .showimg {
+    
+    display: block;
+  }
+
+
+
+
+
+#wrapper div { 
+display: none;
+  position: relative;
+  margin: 5px;
+  float: left;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+
+}
+#wrapper img {
+  
+  
+  
+  width: 200px;
+  height: 200px;
+  
+  
+  margin: 5px;
+  
+  
+  
+  
+}
