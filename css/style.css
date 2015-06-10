@@ -291,6 +291,10 @@ img.centered {
 	padding: 5px;
 }
 
+.bio-info svg {
+	height: 100px;
+}
+
 .transparent-back {
 	overflow: hidden;
 	background-color: rgba(255,255,255, 0.75);
