@@ -1,16 +1,16 @@
 $(".allbut").click(function(){
-  $(".pho").show();
-  $(".ill").show();
-  $(".post").show();
+  $(".land").show();
+  $(".arch").show();
+  $(".plant").show();
 }
                    
                    );
 
 //click illustration
-$(".illbut").click(function(){
-  $(".pho").hide();
-  $(".ill").show();
-  $(".post").hide();
+$(".landbut").click(function(){
+  $(".plant").hide();
+  $(".land").show();
+  $(".arch").hide();
 }
 
 );
@@ -18,10 +18,12 @@ $(".illbut").click(function(){
 
 //click posters
 
-$(".postbut").click(function(){
-  $(".post").show();
-  $(".ill").hide();
-  $(".pho").hide();
+// ill land post arch plant pho
+
+$(".archbut").click(function(){
+  $(".arch").show();
+  $(".plant").hide();
+  $(".land").hide();
   
 }
 
@@ -31,10 +33,10 @@ $(".postbut").click(function(){
 
 //click photos
 
-$(".phobut").click(function(){
-  $(".pho").show();
-  $(".ill").hide();
-   $(".post").hide();
+$(".plantbut").click(function(){
+  $(".plant").show();
+  $(".land").hide();
+   $(".arch").hide();
 }
 
 );
